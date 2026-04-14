@@ -1,0 +1,80 @@
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  background: radial-gradient(circle at top left, #8b5cf6 0%, #4f46e5 35%, #0f172a 100%);
+}
+
+main {
+  width: min(420px, 100%);
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(248,250,252,0.9) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.18);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+label {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #d1d5db;
+  background: #f8fafc;
+}
+
+button {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border: none;
+  border-radius: 0.75rem;
+  font-weight: 700;
+}
+
+button.primary,
+button[type='submit'] {
+  background: #7c3aed;
+  color: white;
+}
+
+button.primary:hover,
+button[type='submit']:hover {
+  background: #6d28d9;
+}
+
+.link-button {
+  all: unset;
+  color: #7c3aed;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.link-button:hover {
+  color: #5b21b6;
+}
+
+.message {
+  margin-bottom: 1rem;
+  padding: 0.95rem 1rem;
+  border-radius: 0.75rem;
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+p {
+  margin: 1rem 0 0;
+}
